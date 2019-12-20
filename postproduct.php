@@ -3,16 +3,16 @@
 ?>
 <div class="row">
     <div class="col-lg-12">
-        <h1 class="page-header">Post a car</h1>
+        <h1 class="page-header">Post car</h1>
     </div>
 </div>
 <div class="container">
         <div class="row">
             <form action="saveproduct.php" class="form-horizontal" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label for="name" class="col-md-3 control-label">Type :  </label>
+                    
                     <div class="col-md-5">
-                        <input type="text" name="txttype" id=""class="form-control">
+                        
                     </div>
                 </div>
                 <div class="form-group">

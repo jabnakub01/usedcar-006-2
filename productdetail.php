@@ -32,7 +32,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Soi5 Used Cars 006</title>
+    <title>Soi5 Used Cars 006-2</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -145,7 +145,7 @@
                                     <strong>Price: <?php echo $prd->price ?></strong>
                                 </p>
                 <p>
-                    <a href="" class="btn btn-primary">Buy Now!</a>
+                    <a href="" class="btn btn-primary">Buy!</a>
                     <a href="" class="btn btn-info">Add to basket</a>
                 </p>
             </div>

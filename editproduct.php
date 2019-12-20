@@ -31,10 +31,6 @@
         </div>
         <div class="col-md-6">
             <form action="updateproduct.php" class="form-horizontal" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                    <label for="name" class="col-md-3 control-label">Type : <?php echo $prd->carType ?> </label>
-
-                </div>
                 <div class="form-group">
                     <label for="Brand" class="col-md-3 control-label">Brand: </label>
                     <div class="col-md-6">
@@ -81,7 +77,7 @@
                 <div class="form-group">
                 <div class="col-md-offset-3">
                         <input type="hidden" name="hdnProductID" value="<?php echo $prd->id;?>">
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="submit" class="btn btn-primary glyphicon glyphicon-save"> Save</button>
                         <button type="submit" class="btn btn-danger">Reset</button>
                     </div>
                 </div>

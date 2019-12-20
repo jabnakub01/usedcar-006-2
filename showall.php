@@ -44,10 +44,10 @@
                                 ?>
                                 <p>
                                     <a href="index.php?pid=<?php echo $prd->id ?>&menu=edit" class="btn btn-warning">
-                                        <i class="glyphicon glyphicon-pencil"> Edit</i> 
+                                        <i class="glyphicon glyphicon-pencil"> </i> Edit
                                     </a>
                                     <a href="deleteproduct.php?pid=<?php echo $prd->id ?>" class="btn btn-danger lnkDelete">
-                                        <i class="glyphicon glyphicon-trash" id="lnkDelete"> Delete</i> 
+                                        <i class="glyphicon glyphicon-trash" id="lnkDelete"> </i> Delete
                                     </a>
                                 </p>
                                 <?php

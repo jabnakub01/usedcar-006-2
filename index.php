@@ -58,7 +58,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Soi 5 Used Cars 006</a>
+            <a class="navbar-brand" href="#">Soi 5 Used Cars 006-2</a>
         </div>
 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -115,15 +115,6 @@
                     <li>
                         <a href="index.php?menu=show" class="active"><i class="fa fa-car fa-fw"></i> รถทุกประเภท</a>
                     </li>
-                    <li>
-                        <a href="index.php?menu=car&cat=1" class="active"><i class="fa fa-car fa-fw"></i> รถเก๋ง</a>
-                    </li>
-                    <li>
-                        <a href="index.php?menu=car&cat=2" class="active"><i class="fa fa-truck fa-fw"></i> รถกระบะ</a>
-                    </li>
-                    <li>
-                        <a href="index.php?menu=car&cat=3" class="active"><i class="fa fa-truck fa-fw"></i> รถตู้</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -164,7 +155,7 @@
                     break;
                 }
                 default:{
-                    $page="main.php";
+                    $page="showall.php";
                 }
             }
                 include($page);
